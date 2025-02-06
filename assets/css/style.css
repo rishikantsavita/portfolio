@@ -1,11 +1,3 @@
-/**
-* Template Name: iPortfolio
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*----------------  # General and Global css  --------*/
 body {
   font-family: "Open Sans", sans-serif;
@@ -242,10 +234,10 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/rishi-hero-img-3.svg") top center;
-  background-size: cover;
+  background: url("../img/portfolio_banner.png") top center;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
 }
 
 #hero:before {
