@@ -1,4 +1,4 @@
-/*----------------  # General and Global css  --------*/
+/*---- # General and Global css ----*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -20,12 +20,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+/*---- # Back to top button ----*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -56,9 +54,7 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/*---- # Header ----*/
 #header {
   position: fixed;
   top: 0;
@@ -130,25 +126,8 @@ h6 {
   padding-right: 30px;
 }
 
-@media (max-width: 1199px) {
-  #header {
-    left: -300px;
-  }
+/*---- # Navigation Menu ----*/
 
-  #main {
-    margin-left: 0;
-  }
-
-  .container,
-  .container-fluid {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-}
-
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
   padding: 30px 0 0 0;
@@ -228,9 +207,7 @@ h6 {
   left: 0;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/*---- # Hero Section ----*/
 #hero {
   width: 100%;
   height: 100vh;
@@ -279,28 +256,7 @@ h6 {
   border-bottom: 3px solid #149ddd;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/*---- # Sections General ----*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -338,9 +294,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/*---- # About ----*/
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -375,13 +329,11 @@ section {
 
 .rishi-about-img {
   width: 100%;
-    height: 100%;
-    max-height: 400px;
+  height: 100%;
+  max-height: 400px;
 }
 
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
+/*---- # Skills ----*/
 .skills .progress {
   height: 60px;
   display: block;
@@ -416,7 +368,7 @@ section {
   background-color: #149ddd;
 }
 
-/*------- skill list ------ */
+/*---- skill list ---- */
 .skill-list {
   padding-top: 60px;
   width: 100%;
@@ -435,7 +387,7 @@ section {
 .skill-list ul li {
   width: calc(20% - 16px);
   border-radius: 5px;
-  border: 1px solid #28292a; 
+  border: 1px solid #28292a;
   list-style: none;
 }
 
@@ -448,7 +400,7 @@ section {
 }
 
 .skill-list-icon {
-  padding: 20px; 
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -472,13 +424,7 @@ section {
   transform: scale(1.1);
 }
 
-@media (max-width: 1366px) {
-  
-}
-
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
+/*---- # Resume ----*/
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -537,9 +483,7 @@ section {
   border: 2px solid #1f5297;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+/*---- # Portfolio ----*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -646,9 +590,7 @@ section {
   bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
+/*---- # Portfolio Details ----*/
 .portfolio-details {
   padding-top: 40px;
 }
@@ -711,9 +653,7 @@ section {
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
+/*---- # Services ----*/
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -766,9 +706,7 @@ section {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
+/*---- # Testimonials ----*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -858,9 +796,7 @@ section {
   background-color: #149ddd;
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+/*---- # Contact ----*/
 .contact {
   padding-bottom: 130px;
 }
@@ -897,7 +833,10 @@ section {
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: "Roboto";
   color: #173b6c;
 }
 
@@ -1055,9 +994,7 @@ section {
   height: 300px;
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
+/*---- # Breadcrumbs ----*/
 .breadcrumbs {
   padding: 20px 0;
   background: #f9f9f9;
@@ -1088,23 +1025,7 @@ section {
   content: "/";
 }
 
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/*---- # Footer ----*/
 #footer {
   padding: 15px;
   color: #f4f6fd;
@@ -1126,12 +1047,4 @@ section {
   text-align: center;
   font-size: 13px;
   color: #eaebf0;
-}
-
-@media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
-  }
 }
