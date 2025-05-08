@@ -2,17 +2,13 @@
     #header {
         left: -300px;
     }
-
     #main {
         margin-left: 0;
     }
-
-    .container,
-    .container-fluid {
+    .container, .container-fluid {
         padding-left: 12px;
         padding-right: 12px;
     }
-
     #footer {
         position: static;
         width: auto;
@@ -20,32 +16,13 @@
     }
 }
 
-@media (min-width: 1024px) {
-    #hero {
-        background-attachment: fixed;
-    }
-}
-
 @media (max-width: 768px) {
-    #hero h1 {
-        font-size: 28px;
-        line-height: 36px;
-    }
-
-    #hero h2 {
-        font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 30px;
-    }
-
     .breadcrumbs .d-flex {
         display: block !important;
     }
-
     .breadcrumbs ol {
         display: block;
     }
-
     .breadcrumbs ol li {
         display: inline-block;
     }
@@ -55,7 +32,6 @@
     .skill-list ul li h3 {
         font-size: 22px;
     }
-
     .skill-list-icon-img {
         width: 90px;
         height: 90px;
@@ -73,7 +49,6 @@
     .skill-list ul li h3 {
         font-size: 19px;
     }
-
     .skill-list-icon-img {
         width: 60px;
         height: 65px;
@@ -85,40 +60,32 @@
         flex-wrap: wrap;
         gap: 16px;
     }
-
     .skill-list ul li h3 {
         font-size: 17px;
     }
-
     .skill-list ul li {
         width: calc(25% - 12px);
     }
-
     .skill-list-icon-img {
         width: 50px;
         height: 55px;
     }
-
 }
 
 @media screen and (max-width: 575px) {
     .skill-list ul {
         gap: 16px;
     }
-
     .skill-list ul li h3 {
         font-size: 16px;
         line-height: 24px;
         font-weight: 600;
     }
-
     .skill-list ul li {
         width: calc(50% - 8px);
     }
-
     .contact {
         padding-bottom: 50px;
         padding-top: 30px;
     }
-
 }
