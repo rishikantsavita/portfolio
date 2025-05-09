@@ -1,31 +1,13 @@
 @media (max-width: 1199px) {
-    #header {
-        left: -300px;
-    }
-    #main {
-        margin-left: 0;
-    }
-    .container, .container-fluid {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-    #footer {
-        position: static;
-        width: auto;
-        padding-right: 20px 15px;
-    }
+    #header { left: -300px; }
+    #main { margin-left: 0; }
+    .container, .container-fluid { padding-left: 12px; padding-right: 12px; }
+    #footer { position: static; width: auto; padding-right: 20px 15px; }
 }
-
 @media (max-width: 768px) {
-    .breadcrumbs .d-flex {
-        display: block !important;
-    }
-    .breadcrumbs ol {
-        display: block;
-    }
-    .breadcrumbs ol li {
-        display: inline-block;
-    }
+    .breadcrumbs .d-flex { display: block !important;}
+    .breadcrumbs ol { display: block; }
+    .breadcrumbs ol li { display: inline-block; }
 }
 
 @media screen and (max-width: 1399px) {
@@ -73,6 +55,9 @@
 }
 
 @media screen and (max-width: 575px) {
+    section {
+        padding: 30px 10px;
+    }
     .skill-list ul {
         gap: 16px;
     }
@@ -87,5 +72,20 @@
     .contact {
         padding-bottom: 50px;
         padding-top: 30px;
+    }
+    .mobile-nav-toggle {
+        right: 10px;
+        top: 10px;
+    }
+    .hero-banner-text h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .hero-banner-text p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .about .content h3 {
+        font-size: 22px;
     }
 }
